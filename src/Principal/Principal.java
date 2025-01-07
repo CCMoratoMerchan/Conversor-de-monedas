@@ -84,8 +84,6 @@ public class Principal {
                     System.out.println("El valor "+ valorAConvertir6 + "COP es equivalente a "
                             + valorConvertidoCopAMxn + "MXN");
                     break;
-                case 7:
-                    System.out.println();
                 case 9:
                     System.out.println("Finalizando el programa. Muchas gracias por usar nuestros servicios");
                     break;
