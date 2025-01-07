@@ -1,5 +1,3 @@
-package Principal;
-
 import java.util.Map;
 
 public class ProcesamientoTasas {
