@@ -5,8 +5,7 @@
 
 ![Badge en Desarollo](https://img.shields.io/badge/Estatus-EN%20DESAROLLO-green)
 
-Este proyecto es un conversor de monedas desarrollado en Java. Permite realizar conversiones entre 3 diferentes divisas, utilizando (USD, COP y MXN)
-a través de un llamado a la API https://www.exchangerate-api.com/
+Este proyecto es un conversor de monedas desarrollado en Java. Permite realizar solicitudes a la API https://www.exchangerate-api.com/ de tasas de cambio, para manipular datos JSON y finalmente obtener conversiones entre 3 diferentes divisas (USD, COP y MXN), todo por medio de una interfaz de usuario o menú que permite al usuario elegir la divisa y cantidad a convertir.
 
 **📋 Características principales:**
 
