@@ -2,7 +2,7 @@ package Principal;
 
 import java.util.Map;
 
-public class ConversionRespuesta {
+public class ProcesamientoTasas {
     private Map<String, Double> conversion_rates;
 
     public Map<String , Double> getConversion_rates(){

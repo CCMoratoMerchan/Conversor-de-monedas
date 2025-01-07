@@ -26,8 +26,8 @@ public class ConsultaConversor{
             throw new RuntimeException(e);
         }
 
-        ConversionRespuesta conversionRespuesta = new Gson().fromJson(response.body(), ConversionRespuesta.class);
+        ProcesamientoTasas procesamientoTasas = new Gson().fromJson(response.body(), ProcesamientoTasas.class);
 
-        return new Conversion(conversionRespuesta.getConversion_rates());
+        return new Conversion(procesamientoTasas.getConversion_rates());
     }
 }
